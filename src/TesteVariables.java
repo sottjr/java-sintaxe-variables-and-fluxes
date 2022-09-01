@@ -2,14 +2,14 @@
 public class TesteVariables {
 	public static void main(String[] args) {
 		System.out.println("Hello new test!");
-		int idade;
-		idade = 37;
+		int age;
+		age = 37;
 
-		System.out.println(idade);
+		System.out.println(age);
 
-		idade = 30 + 10;
-		System.out.println(idade);
-		idade = (7 * 5) + 2;
-		System.out.println(idade);
+		age = 30 + 10;
+		System.out.println(age);
+		age = (7 * 5) + 2;
+		System.out.println(age);
 	}
 }
