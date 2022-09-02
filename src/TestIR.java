@@ -1,7 +1,7 @@
 
 public class TestIR {
 	public static void main(String[] args) {
-		Double salario = 2801.00;
+		Double salario = 500.00;
 
 		Double checkFirstTax = (7.5 / 100) * salario;
 		Double checkSecondeTax = (15.0 / 100) * salario;
@@ -42,15 +42,14 @@ public class TestIR {
 								System.out.println("o seu salario de " + salario + " tera um desconto de R$ "
 										+ checkThirdTax + " o saldo sera: R$ " + newSalario);
 							} else {
-								if (salario > 1900.00) {
-									System.out.println("Valor abaixo, está livre de impostos.");
-								}
+
+								System.out.println("Valor abaixo, está livre de impostos.");
 							}
 						}
 					}
 				}
 			}
 		}
-
 	}
+
 }
